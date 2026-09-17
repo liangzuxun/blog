@@ -4,7 +4,7 @@ layout: home
 hero:
   name: JoJo
   text: 全栈打工人
-  tagline: 前端能写，后端能调，bug 能修，deadline 能熬
+  tagline: 前端能写，后端能调，deadline 能熬
   image:
     src: https://picsum.photos/200/200
     alt: JoJo

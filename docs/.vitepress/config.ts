@@ -57,32 +57,6 @@ export default defineConfig({
       }
     },
 
-    // 本地全文搜索（无需后端）
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          root: {
-            translations: {
-              button: {
-                buttonText: '搜索',
-                buttonAriaLabel: '搜索'
-              },
-              modal: {
-                displayDetails: '显示详细列表',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                },
-                noResultsText: '无法找到相关结果'
-              }
-            }
-          }
-        }
-      }
-    },
-
     // 右上角社交链接（顶部导航右侧的图标）
     socialLinks: [
       { icon: 'github', link: 'https://github.com/yourname' }

@@ -9,6 +9,7 @@ import Archives from './components/Archives.vue'
 import Categories from './components/Categories.vue'
 import Tags from './components/Tags.vue'
 import ShareButtons from './components/ShareButtons.vue'
+import SearchPage from './components/SearchPage.vue'
 
 import './custom.css'
 
@@ -39,6 +40,7 @@ export default {
     app.component('Archives', Archives)
     app.component('Categories', Categories)
     app.component('Tags', Tags)
+    app.component('SearchPage', SearchPage)
 
     // 默认暗色模式（用户没手动选过时）
     if (typeof window !== 'undefined') {
