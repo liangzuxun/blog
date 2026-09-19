@@ -74,7 +74,7 @@ const pageUrl = computed(() => {
   return window.location.href
 })
 
-const pageTitle = computed(() => page.value?.frontmatter?.title || document.title)
+const pageTitle = computed(() => page.value?.frontmatter?.title || page.value?.title || '')
 
 // 本地生成二维码，不依赖外部服务
 watch(showWechat, async (open) => {
