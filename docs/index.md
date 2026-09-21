@@ -2,28 +2,25 @@
 layout: home
 
 hero:
-  name: JoJo
-  text: 全栈打工人
-  tagline: 前端能写，后端能调，deadline 能熬
+  name: Jo
+  text: 把模糊的想法做出来
+  tagline: 关注工程质量、产品体验与长期价值
   image:
     src: https://picsum.photos/200/200
-    alt: JoJo
+    alt: Jo
   actions:
     - theme: brand
-      text: 看看博客
+      text: 阅读文章
       link: /posts/
     - theme: alt
       text: 关于我
       link: /about
 
 features:
-  - icon: 📝
-    title: 技术博客
-    details: 记录学习笔记、项目实践和技术思考
-  - icon: 💼
-    title: 作品集
-    details: 展示我做过的项目和开源作品
-  - icon: 📬
-    title: 联系我
-    details: 欢迎交流合作，一起探讨技术
+  - title: 技术笔记
+    details: 记录开发实践、架构思考与问题复盘
+  - title: 项目作品
+    details: 展示个人项目与开源实践
+  - title: 联系合作
+    details: 欢迎就技术与产品展开交流
 ---

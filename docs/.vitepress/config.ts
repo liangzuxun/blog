@@ -10,8 +10,8 @@ import { sidebar } from './config/sidebar'
  */
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'JoJo',
-  description: 'JoJo 的个人技术博客与作品集',
+  title: 'Jo',
+  description: 'Jo 的技术笔记与工程实践',
 
   // 在页面渲染前执行的脚本：默认开启暗色模式
   head: [
@@ -29,7 +29,7 @@ export default defineConfig({
   lastUpdated: false,
 
   themeConfig: {
-    siteTitle: 'JoJo',
+    siteTitle: 'Jo',
 
     // 顶部导航栏（在 ./config/nav.ts 里改）
     nav,
@@ -65,7 +65,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: '基于 VitePress 构建',
-      copyright: 'Copyright © 2026 JoJo'
+      copyright: 'Copyright © 2026 Jo'
     }
   },
 
